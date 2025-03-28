@@ -1,0 +1,272 @@
+#Orders {
+  height: 100vh;
+  padding-top: 20px;
+}
+.container {
+  margin: 10px;
+  /* background-color: gray; */
+  margin-top: 70px;
+}
+.Invoice {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  padding: 5px;
+  margin-left: -10px;
+  border: 2px solid black;
+}
+.txtFields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+.customerChoice {
+  width: 155px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(205, 205, 205);
+  margin-top: 0px;
+}
+.custAddress {
+  width: 345px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(205, 205, 205);
+}
+.Invoice .input {
+  width: 150px;
+}
+.input {
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(205, 205, 205);
+}
+.Invoice h3 {
+  margin: -5px;
+  padding: 10px;
+  background-color: #00ad51;
+  color: white;
+}
+.Invoice h5 {
+  margin: 20px 0 5px 0px;
+}
+
+.address:hover {
+  border: 3px solid skyblue;
+}
+/* 
+ */
+.itemSelect {
+  width: 450px;
+  margin-left: 50px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+}
+.firstField {
+  display: flex;
+  margin-top: 20px;
+}
+.firstField input[type="text"] {
+  width: 210px;
+}
+.itemChoice {
+  width: 190px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(205, 205, 205);
+  margin-top: 0px;
+}
+.icode {
+  margin-left: 20px;
+}
+
+.itemSelect h3 {
+  margin: -10px;
+  padding: 10px;
+  background-color: #00ad51;
+  color: white;
+}
+.secondField {
+  display: flex;
+}
+.itemName {
+  width: 150px;
+}
+.price {
+  width: 120px;
+}
+.qty {
+  width: 100px;
+}
+.priceses {
+  margin-left: 20px;
+}
+.qtyOnHand {
+  margin-left: 20px;
+}
+.orderQty {
+  width: 430px;
+}
+.itemSelect h5 {
+  margin: 20px 0 5px 0px;
+}
+.orderQtys {
+  margin-top: 40px;
+}
+.btn {
+  margin-top: 20px;
+  margin-left: 360px;
+}
+.btn button {
+  padding: 8px;
+  border: transparent;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+/* 
+ */
+.purchase {
+  padding: 10px;
+  background-color: white;
+  margin-left: 50px;
+  border: 2px solid black;
+}
+.cashOrder {
+  display: flex;
+  margin-top: 25px;
+}
+.cashOrder .input {
+  width: 150px;
+}
+
+.disc {
+  margin-left: 35px;
+}
+.purchase h5 {
+  margin: 20px 0 5px 0px;
+}
+.btnPurchase {
+  margin-top: 30px;
+  margin-left: 140px;
+}
+.btnPurchase button {
+  padding: 10px;
+  background-color: #00ad51;
+  border: transparent;
+  color: white;
+  border-radius: 5px;
+}
+.purchase h4 {
+  color: rgb(118, 201, 229);
+}
+.purchase h3 {
+  color: red;
+}
+.orderTableContainer {
+  height: 220px;
+  overflow-y: scroll;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.order-table tbody {
+  margin-left: 20px;
+  overflow: auto;
+}
+.order-table thead {
+  background-color: rgb(0, 205, 188);
+}
+
+.cashError {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 1440px) {
+  .Invoice {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    padding: 5px;
+    margin-left: 0;
+  }
+  .customerChoice {
+    width: 140px;
+    height: 30px;
+  }
+  .custAddress {
+    width: 290px;
+  }
+  .Invoice .input {
+    width: 140px;
+  }
+  .itemSelect {
+    width: 380px;
+    margin-left: 10px;
+  }
+  .itemChoice {
+    width: 180px;
+  }
+  .icode {
+    margin-left: 10px;
+  }
+  .firstField input[type="text"] {
+    width: 180px;
+  }
+  .itemName {
+    width: 115px;
+  }
+  .price {
+    width: 115px;
+  }
+  .qty {
+    width: 90px;
+  }
+  .orderQty {
+    width: 370px;
+  }
+  .btn {
+    margin-top: 20px;
+    margin-left: 220px;
+    width: 100px;
+  }
+  .cashOrder .input {
+    width: 100px;
+  }
+  disc {
+    margin-left: 25px;
+  }
+  .balance {
+    width: 240px;
+  }
+  .purchase {
+    margin-left: 10px;
+  }
+  .orderTableContainer {
+    height: 150px;
+  }
+  button.purchases {
+    margin-left: 30px;
+  }
+
+  button.addItem {
+    margin-left: 75px;
+    width: 80px;
+  }
+
+  @media (min-width: 768px) and (max-width: 999px) {
+    .orderTableContainer {
+      height: 150px;
+    }
+    #Oreder {
+      margin-bottom: 50px;
+    }
+  }
+}
